@@ -1,0 +1,122 @@
+@import "reset.css";
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,700');
+
+
+body {
+  background-color: #F2F7F5;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.whiteBox {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  height: 600px;
+  background-color: #D8D8D8;
+  margin-left: 700px;
+  margin-top: 100px;
+}
+
+h2 {
+  font-size: 26px;
+  width: 80px;
+  transform: rotate(-90deg);
+  margin-bottom: -160px;
+  margin-left: 320px;
+}
+
+h3 {
+  font-size: 20px;
+  margin-left: 10px;
+  margin-top: 30px;
+  font-style: italic;
+}
+
+p {
+  font-size: 73px;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-left: 10px;
+}
+
+.numberOne {
+  position: absolute;
+  left: 950px;
+  top: 520px;
+  font-size: 250px;
+  font-weight: 800;
+  color: orange;
+}
+
+.numberTwo {
+  position: absolute;
+  left: 850px;
+  top: 910px;
+  font-size: 250px;
+  font-weight: 800;
+  color: #EA3600;
+}
+
+.boxOne {
+  position: absolute;
+  display: flex;
+  left: 1000px;
+  top: 600px;
+  width: 550px;
+  height: 600px;
+  background-color: white;
+  z-index: -1;
+}
+
+.boxTwo {
+  position: absolute;
+  display: flex;
+  left: 500px;
+  top: 990px;
+  width: 550px;
+  height: 600px;
+  background-color: #D8D8D8;
+  z-index: -1;
+}
+
+.textBox {
+  display: flex;
+  width: 50%;
+  margin-left: 350px;
+}
+
+.textBoxTwo {
+  display: flex;
+  width: 300px;
+  margin-left: 350px;
+}
+
+.imageOne {
+  position: absolute;
+  left: 1080px;
+  top: 640px;
+  width: 13%;
+}
+
+.imageTwo {
+  position: absolute;
+  left: 580px;
+  top: 1060px;
+  width: 13%;
+}
+
+.imageTwo:hover {
+  transform: scale(1.5);
+}
+
+.imageOne:hover {
+  transform: scale(1.5);
+}
+
+.colorMine {
+  color: orange;
+}
+
+.colorOI {
+  color: #EA3600;
+}
